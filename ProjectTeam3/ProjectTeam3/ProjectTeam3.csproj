@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAddProductToPackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddProductToPackage.Designer.cs">
+      <DependentUpon>frmAddProductToPackage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPackages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPackages.Designer.cs">
+      <DependentUpon>frmPackages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewSelPackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewSelPackage.Designer.cs">
+      <DependentUpon>frmViewSelPackage.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +72,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddProductToPackage.resx">
+      <DependentUpon>frmAddProductToPackage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPackages.resx">
+      <DependentUpon>frmPackages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewSelPackage.resx">
+      <DependentUpon>frmViewSelPackage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

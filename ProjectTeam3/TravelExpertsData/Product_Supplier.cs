@@ -9,7 +9,7 @@ namespace TravelExpertsData
     public class Product_Supplier
     {
         public int ProductSupplierId { get; set; }
-        public int ProductId { get; set; }
-        public int SupplierId { get; set; }
+        public int? ProductId { get; set; }     // nullable
+        public int? SupplierId { get; set; }    // nullable
     }
 }
